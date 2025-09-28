@@ -13,8 +13,6 @@ Stakeholders often face challenges understanding financial performance across di
 
 * **At-a-glance KPIs** (Sales, Profit, Growth, Margin).
 * **Time-series analysis** for trends and YoY comparison.
-* **Interactive drilldowns** to uncover product and country-level insights.
-* **Navigation menu** for a structured, user-friendly reporting experience.
 
 ---
 
@@ -48,48 +46,22 @@ Stakeholders often face challenges understanding financial performance across di
 * KPI cards: Total Sales, Total Profit, Profit Margin %, YoY Growth %.
 * Sales trend vs. last year (line chart).
 * Sales by Country (bar chart).
-* Profit by Segment (column chart).
+* Profit by Segment (pie chart).
 * Sales by Product (donut chart).
 
 ### 2. **Sales & Profit Analysis**
 
 * Slicers for Date, Country, Segment, Product.
-* Line chart: Sales vs Profit trend.
-* Waterfall chart: Profit breakdown by Product/Segment.
+* Line chart: Sales vs Profit trend by Product.
+* Waterfall chart: Profit breakdown by Segment.
 * Matrix table: Country → Segment → Sales, Profit, Margin.
 
-### 3. **Detail Drillthrough**
-
-* Drillthrough enabled for Product and Country.
-* Detailed transaction-level table with Sales, Profit, COGS, Units Sold.
-
 ---
 
-## 🖱️ Interactivity & Navigation
+## 🖱️ Interactivity 
 
 * **Slicers**: Country, Product, Segment, and Date (synced across pages).
-* **Drillthrough pages** for detailed analysis.
-* **Custom navigation menu** built with Bookmarks & Buttons for a clean, app-like experience.
 * **Tooltips** for quick contextual insights.
-
----
-
-## 🎨 Design Choices
-
-* Consistent corporate color scheme (blue for positive, red for negative).
-* Large KPI cards placed at the top for instant visibility.
-* Bookmark navigation placed on the left for easy access.
-* Dynamic titles added for better context (e.g., “Total Sales — Last 12 Months vs LY”).
-
----
-
-## 🚀 How to Use
-
-1. Open the `.pbix` file in Power BI Desktop.
-2. Use the **navigation menu** (left sidebar) to move between Overview, Analysis, and Detail pages.
-3. Apply slicers to filter by Date, Country, Segment, or Product.
-4. Hover over charts for tooltips with extra insights.
-5. Right-click a Product/Country to drillthrough into the Detail page.
 
 ---
 
@@ -100,17 +72,3 @@ Stakeholders often face challenges understanding financial performance across di
 * Identify **profitable/unprofitable segments** for resource allocation.
 * Spot **top-performing countries/products** to guide strategy.
 
----
-
-## 🔮 Next Steps / Extensions
-
-* Automate data refresh by connecting to a live database.
-* Add **forecasting visuals** for sales prediction.
-* Implement **Row-Level Security (RLS)** for stakeholder-specific access.
-* Connect to external datasets (market trends, currency exchange) for deeper context.
-
----
-
-**Author:** [Your Name]
-**Tool:** Microsoft Power BI Desktop
-**Dataset:** Financial Sample.xlsx (Power BI sample data)
